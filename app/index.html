@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>application mobile </title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Robot Vision : Détection et evitement d'obstacles en temps réel</h1>
+    <p>Ce projet consiste a développer un robot intelligent capable d'éviter les obstacles en utilisant une caméra embarqée et un raspberry Pi. Grace au modele de détection YOLO , le robot analyse son environnement en temps réel et adaptes ses mouvements. <br> L'application web associée permet de visualiser en direct le flux vidéo de la caméra ,avec les objets détectés et les zones de danger mises en évidence.</p>
+    <img src="{{ url_for('video_feed')}}" width="640" height="480" alt="video" >
+</body>
+</html>
